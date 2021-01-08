@@ -1,0 +1,288 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="lib/bootstrap/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+      <link rel="stylesheet" href="lib/slick/slick/slick.css">
+       <link rel="stylesheet" href="lib/slick/slick/slick-theme.css">
+       <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap" rel="stylesheet">
+
+    <title>slider</title>
+  </head>
+ <style>
+	 body{
+	 width: 800px;
+	 display: block;
+	 margin: 0 auto;
+	 }
+	 .slider-mandos-partes .item{
+	 width: 100%;
+	 height:480px;
+	 }
+	 .cont-img-slider{
+	 background-size: cover;
+	 background-repeat: no-repeat;
+	 background-position:left top;
+	 height: 480px;
+	 }
+	 .cont-img-slider h3{
+	 font-family: 'Open Sans', sans-serif;
+	 font-size: 40px;
+	 line-height: 41px;
+	 text-transform: uppercase;
+	 color: white;
+	 padding: 5px 5px;
+
+	 }
+	 .cont-description-slider.caracteristicas{
+	 background-color: #373736;
+	  display: flex;
+	 padding-right: 10px;
+  align-items: center;
+  justify-content: center;
+	 }
+ 
+	 .cont-description-slider.caracteristicas .epigrafe{
+
+	 font-family: 'Open Sans', sans-serif;
+	 font-size: 15px;
+	 margin-top: 10px;
+	 line-height: 25px;
+	 font-weight: 300;
+	 color: #373736;
+	 
+	 }
+	  .cont-description-slider.caracteristicas .titular{
+
+	  font-family: 'Open Sans', sans-serif;
+	 font-size: 25px;
+	 line-height: 35px;
+	 font-weight: 700;
+	 color: #C5A725;
+	 padding: 10px 0px;
+	 }
+	  .cont-description-slider.caracteristicas p{
+	  font-family: 'Open Sans', sans-serif;
+	 font-size: 15px;
+	 line-height: 25px;
+	 font-weight: 300;
+	 padding: 10px 0px;
+	 margin: 0px;
+	 color: white;
+	 }
+	.cont-description-slider .fuente {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    line-height: 25px;
+    font-weight: 300;
+    font-style: italic;
+    border: 1px solid #c3c6c7;
+    border-radius: 4px;
+    padding: 7px 10px;
+    color: #636362;
+}
+	 b{
+		 font-weight: 700;
+	 }
+.cont-description-slider.caracteristicas .fuente:hover {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+	text-decoration: none;
+    line-height: 25px;
+    font-weight: 300;
+    font-style: italic;
+    border: 1px solid #c3c6c7;
+    border-radius: 4px;
+    padding: 7px 10px;
+    color: #636362;
+}
+	 .numeracion{
+		 padding: 30px;
+		   display: flex;
+  align-items: center;
+  justify-content: center;
+		 
+	 }
+	  .numeracion p{
+		color: #636362;
+	font-family: 'Open Sans', sans-serif;
+	 font-size: 15px;
+	 line-height: 25px;
+	 text-align:center;
+	 font-weight: 300;
+	 margin: 0px;
+	 }
+   .cont-description-slider.caracteristicas .icon{
+     height: 40px;
+   }
+	 .cont-description-slider.caracteristicas{
+		 padding-right: 10%;
+		 position: relative;
+	 }
+	 .newswrapper_prev{
+		 position: absolute;
+		 top:75%;
+		 left: 0px;
+		 z-index: 1;
+	 }	
+	 .newswrapper_next{
+		 position: absolute;
+		 top:75%;
+		 right: 0px;
+	 }
+	.numeracion-inte {
+    position: absolute;
+    bottom: 9px;
+    left: 21px;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: left;
+    font-weight: 300;
+    margin: 0px;
+}
+.cont ul {
+  list-style-type: none;
+  color: #fff;
+  margin: 0px;
+  padding: 0px;
+
+}
+.cont p:nth-child(2){
+	font-size: 13px;
+	font-weight: 100;
+	color: #FED730;
+}
+</style>
+  <body>
+  	<section id="mapa">
+  		<div class="container-fluid">
+  			<div class="row">
+  				<div class="col-12" style="padding: 0px;">
+  					<div class="slider-mandos-partes">
+  						<div class="item">
+  							<div class="row">
+  								<div class="col-7 cont-img-slider" style="background-image:url('img/Caracteristicas-generales-hg-01.png');">
+  								
+  								</div>
+  								<div class="col-5 cont-description-slider caracteristicas">
+  									<div class="cont">
+
+  										<p>Pasa de demorar días a sólo minutos en encontrar evidencia gracias a <b>filtros de búsqueda de alta precisión</b></p>
+  										
+  										
+  									
+  									</div>
+  									<h5 class="numeracion-inte">01 / 05</h5>
+  								</div>
+  							</div>
+  						</div>
+
+  						<div class="item">
+  							<div class="row">
+  								<div class="col-7 cont-img-slider" style="background-image:url('img/Caracteristicas-generales-hg-02.png');">
+  								
+  								</div>
+  								<div class="col-5 cont-description-slider caracteristicas">
+  									<div class="cont">
+
+  										<p>Automáticamente se detectan otras Axon/oficiales que estuvieron en la escena y Evidence.com <b>sincroniza los videos, para una visión de todos los ángulos de lo ocurrido.</b></p>
+  									</div>
+  									<h5 class="numeracion-inte">02 / 05</h5>
+  								</div>
+  							</div>
+  						</div>
+  						<div class="item">
+  							<div class="row">
+  								<div class="col-7 cont-img-slider" style="background-image:url('img/Caracteristicas-generales-hg-03.png');">
+  								
+  								</div>
+  								<div class="col-5 cont-description-slider caracteristicas">
+  									<div class="cont">
+
+									     <p><b>Cada evidencia cuenta con su información crucial como:</b> 
+										  <ul >
+											  <li>- Título</li>
+											  <li>- Número de ID</li>
+											  <li>- Funcionario</li>
+											  <li>- Ubicación</li>
+											  <li>- Informe</li>
+											  <li>- Marcadores, etc.</li>
+										  </ul>
+										</p>
+  									</div>
+  									<h5 class="numeracion-inte">03 / 05</h5>
+  								</div>
+  							</div>
+  						</div>
+  							<div class="item">
+  							<div class="row">
+  								<div class="col-7 cont-img-slider" style="background-image:url('img/Caracteristicas-generales-hg-04.png');">
+  								
+  								</div>
+  								<div class="col-5 cont-description-slider caracteristicas">
+  									<div class="cont">
+
+  										<p><b>Genera un documento PDF de forma automática, </b>con la cadena de custodia comprobable</p>
+  									</div>
+  									<h5 class="numeracion-inte">04 / 05</h5>
+  								</div>
+  							</div>
+						  </div> 
+						  <div class="item">
+							<div class="row">
+								<div class="col-7 cont-img-slider" style="background-image:url('img/Caracteristicas-generales-hg-05.png');">
+								
+								</div>
+								<div class="col-5 cont-description-slider caracteristicas">
+									<div class="cont">
+										<p><b>Comparte de forma simple, segura y controlada las grabaciones realizadas,</b> tanto con otros departamentos de tu institución como con organizaciones externas 
+											(Ej: Fiscalía). Siempre con los permisos que tu quieras darle a ese tercero, como si quieres que pueda descargar o no, volver a compartirlos o no, entre otras.</b></p>
+											<p class="cont-extra">Para un mayor control,  la funcionalidad de compartir se puede restringir a sólo funcionarios seleccionados por tu institución.</p>										
+									</div>
+									<h5 class="numeracion-inte">05 / 05</h5>
+								</div>
+							</div>
+						</div>						
+  					</div>
+  				</div>
+  			</div>
+  		</div>
+ </section>
+    
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+
+     
+    <script src="js/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="js/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="lib/slick/slick/slick.min.js"></script>
+    
+    <script src="lib/bootstrap/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+    <script>
+		
+
+ 
+
+$('.slider-mandos-partes').slick({
+  dots: false,
+  infinite: false,
+  speed: 500,
+  arrows:true,
+  prevArrow: '<img class="newswrapper_prev" src="img/flecha-prev.svg">',
+  nextArrow: '<img class="newswrapper_next" src="img/flecha-next.svg">',
+  fade: true,
+  cssEase: 'linear'
+});
+
+    </script>
+    
+  </body>
+</html>

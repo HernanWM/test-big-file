@@ -1,0 +1,374 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="lib/bootstrap/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+      <link rel="stylesheet" href="lib/slick/slick/slick.css">
+       <link rel="stylesheet" href="lib/slick/slick/slick-theme.css">
+       <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap" rel="stylesheet">
+
+    <title>slider</title>
+  </head>
+ <style>
+	 body{
+	 width:800px;
+	 display: block;
+	 margin: 0 auto;
+	 }
+	 .slider-mandos-partes .item{
+	 width: 100%;
+	 height:452px;
+	 }
+	 .cont-img-slider{
+	 background-size: cover;
+	 background-repeat: no-repeat;
+	 background-position:left top;
+	 height: 400px;
+	 }
+	 .cont-img-slider h3{
+	 font-family: 'Open Sans', sans-serif;
+	 font-size: 40px;
+	 line-height: 41px;
+	 text-transform: uppercase;
+	 color: white;
+	 padding: 5px 5px;
+
+	 }
+	 .cont-description-slider.caracteristicas{
+	 background-color: #373736;
+	  display: flex;
+	 padding-right: 10px;
+  align-items: center;
+  justify-content: center;
+	 }
+ 
+	 .cont-description-slider.caracteristicas .epigrafe{
+
+	 font-family: 'Open Sans', sans-serif;
+	 font-size: 15px;
+	 margin-top: 10px;
+	 line-height: 25px;
+	 font-weight: 300;
+	 color: #373736;
+	 
+	 }
+	  .cont-description-slider.caracteristicas .titular{
+
+	  font-family: 'Open Sans', sans-serif;
+	 font-size: 25px;
+	 line-height: 35px;
+	 font-weight: 700;
+	 color: #C5A725;
+	 padding: 10px 0px;
+	 }
+	  .cont-description-slider.caracteristicas p{
+	  font-family: 'Open Sans', sans-serif;
+	 font-size: 15px;
+	 line-height: 25px;
+	 font-weight: 300;
+	 padding: 10px 0px;
+	 margin: 0px;
+	 color: white;
+	 }
+	.cont-description-slider .fuente {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    line-height: 25px;
+    font-weight: 300;
+    font-style: italic;
+    border: 1px solid #c3c6c7;
+    border-radius: 4px;
+    padding: 7px 10px;
+    color: #636362;
+}
+	 b{
+		 font-weight: 700;
+	 }
+.cont-description-slider.caracteristicas .fuente:hover {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+	text-decoration: none;
+    line-height: 25px;
+    font-weight: 300;
+    font-style: italic;
+    border: 1px solid #c3c6c7;
+    border-radius: 4px;
+    padding: 7px 10px;
+    color: #636362;
+}
+	 .numeracion{
+		 padding: 30px;
+		   display: flex;
+  align-items: center;
+  justify-content: center;
+		 
+	 }
+	  .numeracion p{
+		color: #636362;
+	font-family: 'Open Sans', sans-serif;
+	 font-size: 15px;
+	 line-height: 25px;
+	 text-align:center;
+	 font-weight: 300;
+	 margin: 0px;
+	 }
+   .cont-description-slider.caracteristicas .icon{
+     height: 40px;
+   }
+	 .cont-description-slider.caracteristicas{
+		 padding-right: 10%;
+		 position: relative;
+	 }
+	 .newswrapper_prev{
+		 position: absolute;
+		 top:75%;
+		 left: 0px;
+		 z-index: 1;
+	 }	
+	 .newswrapper_next{
+		 position: absolute;
+		 top:75%;
+		 right: 0px;
+	 }
+	.numeracion-inte {
+    position: absolute;
+    bottom: 9px;
+    left: 21px;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: left;
+    font-weight: 300;
+    margin: 0px;
+}
+</style>
+  <body>
+  	<section id="mapa">
+  		<div class="container-fluid">
+  			<div class="row">
+  				<div class="col-12" style="padding: 0px;">
+  					<div class="slider-mandos-partes">
+  						<div class="item">
+  							<div class="row">
+  								<div class="col-7 cont-img-slider" style="background-image:url('img/caracteristicas-01.png');">
+  								
+  								</div>
+  								<div class="col-5 cont-description-slider caracteristicas">
+  									<div class="cont">
+                                        <img src="img/camara-hd-icon.svg" alt="camara-hd" class="icon">
+
+  										<p><b>Alta definición de video y audio.<br></b>
+Grabación hasta en Full HD 1080 a Low SD 480p.</p>
+  										
+  										
+  									
+  									</div>
+  									<h5 class="numeracion-inte">01 / 12</h5>
+  								</div>
+  							</div>
+  						</div>
+
+  						<div class="item">
+  							<div class="row">
+  								<div class="col-7 cont-img-slider" style="background-image:url('img/caracteristicas-02.jpg');">
+  								
+  								</div>
+  								<div class="col-5 cont-description-slider caracteristicas">
+  									<div class="cont">
+                                        <img src="img/icon-camara.svg" alt="camara-hd" class="icon">
+
+  										<p><b>Lente de tipo gran angular de 143º</b> que permite capturar mucha más información en cada toma.</p>
+  									</div>
+  									<h5 class="numeracion-inte">02 / 12</h5>
+  								</div>
+  							</div>
+  						</div>
+  						<div class="item">
+  							<div class="row">
+  								<div class="col-7 cont-img-slider" style="background-image:url('img/caracteristicas-03.jpg');">
+  								
+  								</div>
+  								<div class="col-5 cont-description-slider caracteristicas">
+  									<div class="cont">
+                                        <img src="img/icon-bateria.svg" alt="camara-hd" class="icon">
+
+  										<p><b>Batería todo turno.</b> Más de 12 horas de duración para protegerte durante todo el turno.</p>
+  									</div>
+  									<h5 class="numeracion-inte">03 / 12</h5>
+  								</div>
+  							</div>
+  						</div>
+  							<div class="item">
+  							<div class="row">
+  								<div class="col-7 cont-img-slider" style="background-image:url('img/caracteristicas-04.jpg');">
+  								
+  								</div>
+  								<div class="col-5 cont-description-slider caracteristicas">
+  									<div class="cont">
+                                        <img src="img/icon-descarga-caract.svg" alt="camara-hd" class="icon">
+
+  										<p><b>Gran almacenamiento.</b>Capacidad interna de hasta 70 horas de grabación.</p>
+  									</div>
+  									<h5 class="numeracion-inte">04 / 12</h5>
+  								</div>
+  							</div>
+  						</div>
+  						<div class="item">
+  							<div class="row">
+  								<div class="col-7 cont-img-slider" style="background-image:url('img/caracteristicas-05.jpg');">
+  								
+  								</div>
+  								<div class="col-5 cont-description-slider caracteristicas">
+  									<div class="cont">
+                                        <img src="img/icon-luna-caract.svg" alt="camara-hd" class="icon">
+
+  										<p><b>Visión de baja luminosidad Retina HD.</b> Simula la visión humana en condiciones de poca luz y nocturnas. Tus grabaciones se verán lo más fidedigno a cómo experimentaste los hechos, para proteger tu versión y la verdad</p>
+  									</div>
+  									<h5 class="numeracion-inte">05 / 12</h5>
+  								</div>
+  							</div>
+  						</div>
+  						<div class="item">
+  							<div class="row">
+  								<div class="col-7 cont-img-slider" style="background-image:url('img/caracteristicas-06.png');">
+  								
+  								</div>
+  								<div class="col-5 cont-description-slider caracteristicas">
+  									<div class="cont">
+                                        <img src="img/icon-cliping.svg" alt="camara-hd" class="icon">
+
+  										<p><b>Resistencia a todos los escenarios.</b> Usala con tranquilidad y confianza, la Axon Body 2 es de estándar militar y cumple con la norma IP67 haciéndola a prueba de agua y polvo.</p>
+  									</div>
+  									<h5 class="numeracion-inte">06 / 12</h5>
+  								</div>
+  							</div>
+  						</div>
+  						<div class="item">
+  							<div class="row">
+  								<div class="col-7 cont-img-slider" style="background-image:url('img/caracteristicas-07.png');">
+  								
+  								</div>
+  								<div class="col-5 cont-description-slider caracteristicas">
+  									<div class="cont">
+                                        <img src="img/icon-gotas.svg" alt="camara-hd" class="icon">
+
+  										<p><b>Resistencia a todos los escenarios.</b> Usala con tranquilidad y confianza, la Axon Body 2 es de estándar militar y cumple con la norma IP67 haciéndola a prueba de agua y polvo.</p>
+  									</div>
+  									<h5 class="numeracion-inte">07 / 12</h5>
+  								</div>
+  							</div>
+  						</div>
+  						<div class="item">
+  							<div class="row">
+  								<div class="col-7 cont-img-slider" style="background-image:url('img/caracteristicas-08.png');">
+  								
+  								</div>
+  								<div class="col-5 cont-description-slider caracteristicas">
+  									<div class="cont">
+                                        <img src="img/icon-gotas.svg" alt="camara-hd" class="icon">
+
+  										<p><b>Grabación Pre-Evento.</b>Captura desde los 2 minutos anteriores al momento en que habilitas la grabación.</p>
+  									</div>
+  									<h5 class="numeracion-inte">08 / 12</h5>
+  								</div>
+  							</div>
+  						</div>
+  						<div class="item">
+  							<div class="row">
+  								<div class="col-7 cont-img-slider" style="background-image:url('img/caracteristicas-09.png');">
+  								
+  								</div>
+  								<div class="col-5 cont-description-slider caracteristicas">
+  									<div class="cont">
+                                        <img src="img/icon-gotas.svg" alt="camara-hd" class="icon">
+
+  										<p><b>Grabaciones seguras. </b> Memoria interna sin acceso manual con tecnología de punta, generando cadena de custodia completa de la grabación y con encriptación para proteger el acceso a los archivos.</p>
+  									</div>
+  									<h5 class="numeracion-inte">09 / 12</h5>
+  								</div>
+  							</div>
+						  </div>
+						<div class="item">
+							<div class="row">
+								<div class="col-7 cont-img-slider" style="background-image:url('img/caracteristicas-10.png');">
+								
+								</div>
+								<div class="col-5 cont-description-slider caracteristicas">
+									<div class="cont">
+									  <img src="img/icon-gotas.svg" alt="camara-hd" class="icon">
+
+										<p><b>Multicámaras. </b> Automáticamente las Axon Body 2 detectarán otras Axon que estuvieron en la acción y sincronizará los videos para un visión de distintos los ángulos de lo ocurrido.</p>
+									</div>
+									<h5 class="numeracion-inte">10 / 12</h5>
+								</div>
+							</div>
+						</div>
+						<div class="item">
+							<div class="row">
+								<div class="col-7 cont-img-slider" style="background-image:url('img/caracteristicas-11.png');">
+								
+								</div>
+								<div class="col-5 cont-description-slider caracteristicas">
+									<div class="cont">
+									  <img src="img/icon-gotas.svg" alt="camara-hd" class="icon">
+
+										<p><b>Posibilidad de Activación Automática.</b>  La Axon se puede comenzar a grabar automáticamente en los momentos más cruciales: Desfunde del arma, uso sirena, apertura puertas en patrullaje, uso taser, etc.</p>
+									</div>
+									<h5 class="numeracion-inte">11 / 12</h5>
+								</div>
+							</div>
+						</div>
+						<div class="item">
+							<div class="row">
+								<div class="col-7 cont-img-slider" style="background-image:url('img/caracteristicas-12.png');">
+								
+								</div>
+								<div class="col-5 cont-description-slider caracteristicas">
+									<div class="cont">
+									  <img src="img/icon-gotas.svg" alt="camara-hd" class="icon">
+
+										<p><b>Monturas profesionales. </b>Para máximas exigencias.</p>
+									</div>
+									<h5 class="numeracion-inte">12 / 12</h5>
+								</div>
+							</div>
+						</div>
+  					</div>
+  				</div>
+  			</div>
+  		</div>
+ </section>
+    
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+
+     
+    <script src="js/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="js/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="lib/slick/slick/slick.min.js"></script>
+    
+    <script src="lib/bootstrap/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+    <script>
+
+$('.slider-mandos-partes').slick({
+  dots: false,
+  infinite: true,
+  speed: 500,
+  arrows:true,
+  prevArrow: '<img class="newswrapper_prev" src="img/flecha-prev.svg">',
+  nextArrow: '<img class="newswrapper_next" src="img/flecha-next.svg">',
+  fade: true,
+  cssEase: 'linear'
+});
+
+    </script>
+    
+  </body>
+</html>
